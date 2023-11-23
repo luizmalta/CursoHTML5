@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body{
-
-    background-color: rgb(219, 196, 196);
+    background-color: rgb(212, 207, 207);
     color: rgba(0,0,0,1);
 
 }
@@ -11,3 +10,14 @@ p{
     text-indent: 40px;
 }
 
+*/ Formatação de figuras com legenda */
+
+figure.foto-legenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
